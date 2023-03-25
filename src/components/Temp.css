@@ -62,6 +62,7 @@ body{
     justify-content: center;
     height: 65px;
     align-items: center;
+    font-size: 30px;
 
 }
 
@@ -78,5 +79,35 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 10px;
+
+}
+
+@media screen and (max-width:600px){
+
+    .widget{
+    border-radius: 5px;
+
+   margin: 0 auto;
+   width: 65vw;
+   height: 30vh;
+    text-align: center;
+    margin-top:20px ;
+    box-shadow: 5px 10px 18px rgba(255, 255, 255, 0.2);
+}
+.wheaterInfo{
+    font-size: 20px;
+    
+}
+.date{
+    background-color: aquamarine;
+    
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    align-items: center;
+    font-size: 25px;
+
+}
+
 
 }
